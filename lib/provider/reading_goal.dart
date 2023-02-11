@@ -11,8 +11,8 @@ class GoalModel extends ChangeNotifier {
   late final SharedPreferences _prefs;
   bool _isLoaded = false;
 
-  final DateTime _deadline = DateTime(2023);
-  final int _numberOfBooksToRead = 14;
+  final DateTime _deadline = DateTime(2024);
+  final int _numberOfBooksToRead = 15;
   final int _avgPageCount = 350;
 
   TodaysStats _todaysStats = TodaysStats.newDay();
